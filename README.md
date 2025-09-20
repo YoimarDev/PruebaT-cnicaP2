@@ -16,20 +16,11 @@ Requisitos mínimos
 
 Estructura relevante
 --------------------
-app/
-Models/
-Producto.php
-Venta.php
-Http/Controllers/
-ProductosController.php
-Helpers/
-Estadisticas.php
-database/
-migrations/
-YYYY_MM_DD_create_productos_table.php
-YYYY_MM_DD_create_ventas_table.php
-routes/
-api.php
-tests/
-Unit/
-EstadisticasTest.php
+- `app/Models/Producto.php`
+- `app/Models/Venta.php`
+- `app/Http/Controllers/ProductosController.php`
+- `app/Helpers/Estadisticas.php`
+- `database/migrations/YYYY_MM_DD_create_productos_table.php`
+- `database/migrations/YYYY_MM_DD_create_ventas_table.php`
+- `routes/api.php`
+- `tests/Unit/EstadisticasTest.php`
